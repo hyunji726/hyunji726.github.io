@@ -373,7 +373,8 @@ div.smile_2 img {
     position: absolute;
     margin: 1430px 0 0 1540px;
 }
-div.hob{
+
+div.hob {
     font-size: 50px;
     font-weight: 800;
     position: absolute;
@@ -386,6 +387,7 @@ div.hob{
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgb(67, 35, 10);
 }
+
 p.sun_word {
     font-size: 20px;
     font-weight: 600;
@@ -398,6 +400,7 @@ p.sun_word {
     text-align: center;
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.sun img {
     width: 300px;
     position: absolute;
@@ -406,6 +409,7 @@ div.sun img {
     transform: rotate(10deg);
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.sun_sti {
     font-size: 10px;
     font-weight: 600;
@@ -419,6 +423,7 @@ div.sun_sti {
     box-shadow: 5px 5px 7px rgb(67, 35, 10);
     transform: rotate(-60deg);
 }
+
 p.travel_word {
     font-size: 20px;
     font-weight: 600;
@@ -431,6 +436,7 @@ p.travel_word {
     text-align: center;
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.travel img {
     width: 300px;
     position: absolute;
@@ -439,6 +445,7 @@ div.travel img {
     transform: rotate(10deg);
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.travel_sti {
     font-size: 10px;
     font-weight: 600;
@@ -452,6 +459,7 @@ div.travel_sti {
     box-shadow: 5px 5px 7px rgb(67, 35, 10);
     transform: rotate(50deg);
 }
+
 p.ott_word {
     font-size: 15px;
     font-weight: 600;
@@ -464,6 +472,7 @@ p.ott_word {
     text-align: center;
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.ott img {
     width: 300px;
     position: absolute;
@@ -472,6 +481,7 @@ div.ott img {
     transform: rotate(-10deg);
     box-shadow: 5px 5px 7px rgb(0, 0, 0);
 }
+
 div.ott_sti {
     font-size: 10px;
     font-weight: 600;
@@ -485,11 +495,13 @@ div.ott_sti {
     box-shadow: 5px 5px 7px rgb(67, 35, 10);
     transform: rotate(-60deg);
 }
+
 div.smile_3 img {
     width: 70px;
     position: absolute;
     margin: 2350px 0 0 1540px;
 }
+
 div.finish {
     color: rgb(207, 218, 218);
     font-size: 100px;
@@ -499,11 +511,13 @@ div.finish {
     margin-left: 500px;
     text-align: center;
 }
+
 div.smile_4 img {
     width: 70px;
     position: absolute;
     margin: 3360px 0 0 1540px;
 }
+
 div.chalk {
     position: absolute;
     width: 200px;
@@ -516,6 +530,7 @@ div.chalk {
     /* transform: rotate(-50deg); */
     border-radius: 10px;
 }
+
 div.chalk_2 {
     position: absolute;
     width: 200px;
