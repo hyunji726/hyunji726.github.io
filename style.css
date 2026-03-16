@@ -7,10 +7,32 @@ div.area {
     height: 1000px;
 }
 
+div.insta {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    position: absolute;
+    margin: 721px 0 0 1311px;
+}
+
+a {
+    color: rgb(71, 70, 70);
+    /* 글자 색 */
+    text-decoration: none;
+    /* 밑줄 제거 */
+}
+
+div.instalogo img {
+    width: 40px;
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 1270px;
+}
+
 div.myface img {
     width: 400px;
     height: 550px;
-    object-fit: cover;
+    /* object-fit: cover; */
     position: absolute;
     margin-top: 170px;
     margin-left: 1000px;
@@ -79,32 +101,430 @@ div.contents ul {
     margin-left: 300px;
 }
 
-div.information_area {
-    background-color: #E2AEBD;
+div.sub_area {
+    border: 15px solid #4a310e;
+    background-color: #265e23;
     padding: 20px;
-    height: 600px;
+    height: 3500px;
     margin: 30px 0 0 0;
-    border-radius: 20px;
 }
 
 div.infor h1 {
-    font-size: 60px;
+    font-size: 50px;
     position: absolute;
-    background-color: #DF7BA8;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 253, 216);
+    border-radius: 20px;
+    padding: 10px 20px;
     display: inline-block;
     margin: 0 0 0 30px;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(67, 35, 10);
 }
 
 div.information p {
-    padding: 100px 80px 80px 50px;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 25px;
     position: absolute;
+    text-align: center;
+}
+
+p.part_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 130px;
+    margin-left: 150px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(-3deg);
+}
+
+p.part {
+    background-color: rgb(255, 255, 169);
+    padding: 40px;
+    margin-top: 160px;
+    margin-left: 80px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    transform: rotate(-3deg);
+}
+
+p.birth_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 340px;
+    margin-left: 280px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+}
+
+p.birth {
+    background-color: rgb(169, 255, 255);
+    padding: 40px 50px;
+    margin-top: 370px;
+    margin-left: 230px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+p.mbti_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 180px;
+    margin-left: 435px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(3deg);
+}
+
+p.mbti {
+    background-color: rgb(213, 255, 162);
+    padding: 40px;
+    margin-top: 210px;
+    margin-left: 400px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    transform: rotate(3deg);
+}
+
+p.grade_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 320px;
+    margin-left: 580px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(-5deg);
+}
+
+p.grade {
+    background-color: rgb(255, 194, 241);
+    padding: 40px;
+    margin-top: 360px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    transform: rotate(-5deg);
+}
+
+p.positive_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 645px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+}
+
+p.positive {
+    background-color: rgb(169, 255, 255);
+    padding: 40px;
+    margin-top: 130px;
+    margin-left: 630px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+p.negative_area {
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 240px;
+    margin-left: 850px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(6deg);
+}
+
+p.negative {
+    background-color: rgb(255, 255, 169);
+    padding: 40px;
+    margin-top: 270px;
+    margin-left: 825px;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    transform: rotate(6deg);
 }
 
 div.good img {
     width: 500px;
     position: absolute;
-    margin: 60px 0 0 1000px;
+    margin: 15px 0 0 1050px;
+    transform: rotate(10deg);
+}
+
+div.smile img {
+    width: 70px;
+    position: absolute;
+    margin: 500px 0 0 1540px;
+}
+
+div.c1 {
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 253, 216);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 700px 0 0 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(67, 35, 10);
+}
+
+p.hmm1_word {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 194, 241);
+    padding: 20px;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 1050px;
+    transform: rotate(-10deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm_1 img {
+    width: 200px;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 800px;
+    transform: rotate(8deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm1_sti {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 1140px;
+    margin-left: 953px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(60deg);
+}
+
+p.hmm2_word {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(169, 255, 255);
+    padding: 20px;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 1250px;
+    transform: rotate(10deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm_2 img {
+    width: 300px;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 900px;
+    transform: rotate(-10deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm2_sti {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 780px;
+    margin-left: 1150px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(-50deg);
+}
+
+p.hmm3_word {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 169);
+    padding: 20px;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 450px;
+    transform: rotate(-10deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm_3 img {
+    width: 300px;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 100px;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+div.hmm3_sti {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 900px;
+    margin-left: 330px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(30deg);
+}
+
+div.smile_2 img {
+    width: 70px;
+    position: absolute;
+    margin: 1430px 0 0 1540px;
+}
+div.hob{
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 253, 216);
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 1600px 0 0 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(67, 35, 10);
+}
+p.sun_word {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 169);
+    padding: 20px;
+    position: absolute;
+    margin-top: 1800px;
+    margin-left: 400px;
+    transform: rotate(-10deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.sun img {
+    width: 300px;
+    position: absolute;
+    margin-top: 1770px;
+    margin-left: 90px;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.sun_sti {
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 1750px;
+    margin-left: 330px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(-60deg);
+}
+p.travel_word {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 194, 241);
+    padding: 20px;
+    position: absolute;
+    margin-top: 2150px;
+    margin-left: 400px;
+    transform: rotate(-6deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.travel img {
+    width: 300px;
+    position: absolute;
+    margin-top: 1980px;
+    margin-left: 700px;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.travel_sti {
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 1930px;
+    margin-left: 800px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(50deg);
+}
+p.ott_word {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(169, 255, 255);
+    padding: 20px;
+    position: absolute;
+    margin-top: 1720px;
+    margin-left: 950px;
+    transform: rotate(6deg);
+    text-align: center;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.ott img {
+    width: 300px;
+    position: absolute;
+    margin-top: 1650px;
+    margin-left: 1200px;
+    transform: rotate(-10deg);
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+div.ott_sti {
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(170, 98, 43);
+    padding: 10px;
+    margin-top: 1650px;
+    margin-left: 1100px;
+    box-shadow: 5px 5px 7px rgb(67, 35, 10);
+    transform: rotate(-60deg);
+}
+div.smile_3 img {
+    width: 70px;
+    position: absolute;
+    margin: 2350px 0 0 1540px;
+}
+div.finish {
+    color: rgb(207, 218, 218);
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 2840px;
+    margin-left: 500px;
+    text-align: center;
+}
+div.smile_4 img {
+    width: 70px;
+    position: absolute;
+    margin: 3360px 0 0 1540px;
+}
+div.chalk {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 210, 230);
+    padding: 10px;
+    margin-top: 3400px;
+    margin-left: 150px;
+    box-shadow: 10px 10px 15px rgb(4, 38, 15);
+    /* transform: rotate(-50deg); */
+    border-radius: 10px;
+}
+div.chalk_2 {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 180);
+    padding: 10px;
+    margin-top: 3365px;
+    margin-left: 300px;
+    box-shadow: 10px 10px 15px rgb(4, 38, 15);
+    transform: rotate(20deg);
+    border-radius: 10px;
 }
